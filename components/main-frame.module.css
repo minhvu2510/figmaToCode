@@ -1,0 +1,48 @@
+.ellipseFrameA {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.james,
+.thankYouThat {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+.james {
+  width: 60px;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.thankYouThat {
+  align-self: stretch;
+  height: 36px;
+  flex-shrink: 0;
+}
+.frameJames,
+.mainFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameJames {
+  flex: 1;
+  flex-direction: column;
+  gap: 6px 0;
+  min-width: 171px;
+}
+.mainFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-base);
+  gap: 0 16px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
